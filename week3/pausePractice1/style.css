@@ -1,0 +1,24 @@
+.mainHeadline {
+    color:#006400;
+    font-family: Georgia;
+    text-align: center;
+}
+#directorLine {
+    font-family: Georgia;
+    text-align: center;
+}
+p {
+    line-height:25px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+span {
+    text-transform: uppercase;
+}
+img {
+    float: left;
+}
