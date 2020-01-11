@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+    
+
+
+header {
+    background-color: teal;
+    height:100px;
+    text-align: center;
+    font-size: 50px;
+   
+    
+}
+
+div nav {
+    
+    position: fixed;
+    font-size: 30px; 
+    text-align: center;
+    
+  }
+
+  a {
+      color: black;
+      text-decoration: none;
+      border: 5px solid teal;
+      padding: 5px;
+      
+  }
+  
+  
+
+div h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div img {
+    position: relative;
+    float: left;
+    padding-right: 50px;
+    height: 400px; 
+    width: 400px;
+    margin: 10px;
+} 
+
+
+
+ p {
+     font-size: 45px;
+     margin-right: 15px;
+     margin-top: inherit;
+     border-bottom: 5px solid black;
+     border-top: 5px solid black;
+ }
+ /*Grid css*/
+ .box{
+	width:100px;
+    height:100px;
+    margin: 10px;
+}
+
+.red{
+    background: #f5c6d6;
+    position: relative;
+    width: 80%;
+    height: 200px;
+    margin-left: 200px;    
+}
+.green{
+    background: #ee3e84;
+    position: absolute;
+    margin-left: 200px;
+    width: 19%;
+    height: 200px;
+    float: left;
+    
+}
+.blue{
+    background:#ee3e84;
+    position: absolute;
+    margin-left: 975px;
+    width: 19%;
+    height: 200px;
+    float: right;
+    
+}
+.purple{
+    background:#ee3e84 ;
+    position: relative;
+    margin-right: 180px;
+    height: 200px;
+    width: 19%;
+    float: right;
+}
+.yellow{
+    position:absolute;
+    background: #ee3e84;
+    margin-left: 580px;
+    height: 200px;
+    width: 19%;
+    float: right;
+
+}
+.brown{
+    background: #85cfd8;
+    position: absolute;
+    height: 200px;
+    margin-top: 230px;
+    width: 39%;
+    margin-left: 200px;
+}
+.orange{
+    background: #85cfd8;
+    position: absolute;
+    height: 200px;
+    margin-top: 230px;
+    width: 39%;
+    margin-left: 975px;
+} 
+.teal{
+    background: #e76e34;
+    position: absolute;
+    height: 200px;
+    margin-top: 450px;
+    margin-left: 1370px;
+    width: 350px;
+
+}
+.gold{
+    background: #8dc63f;
+    position: absolute;
+    height: 200px;
+    margin-top: 450px;
+    width: 60%;
+    margin-left: 200px;
+}
+
+
