@@ -102,33 +102,33 @@ a {
     text-align: center;
 }
 .info h1 {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 10%;
-    margin-right: 20px;
-  
+   
   
 }
 table, th, td{
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     border-style: dotted ;   
 }
 th {
     font-weight: normal;
 }
 table{
-    width: 700px;
-    height: 500px;  
+    width: 200px;
+    height: 200px;  
 }
 .info {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+   
+    
 }
 @media (min-width: 600px ) {
 .boxes {
         display: grid;
         grid-gap: 5px;
-       
         padding: 5px;
     }
  .circle {
@@ -151,6 +151,20 @@ table{
      grid-row: 16 / 23;
      background-color: green ;    
     }
+.info{
+    display: flex;
+    justify-content: right;
+    width: 200px;
+    height: 200px;
+}
+.info table {
+    width: 300px;
+    height: 200px;
+}
+.info h1 {
+    font-size: 25px ;
+}
+    
  @media (min-width: 992px) {
 .boxes {
     display: grid;
@@ -181,6 +195,22 @@ table{
      border-radius: 5px;
      color: white;  
  }
+ .info {
+     display: flex;
+     margin-left: 35%; 
+    
+ }
+ .info h1 {
+     font-size: 30px;
+    
+ }
+  
+table, th, td{
+    text-align: center;
+    font-size: 50px;
+    border-style: dotted ;   
+}
+ 
     
     
     
@@ -193,7 +223,7 @@ table{
     
     
 
-}
+}}
 
 
     
