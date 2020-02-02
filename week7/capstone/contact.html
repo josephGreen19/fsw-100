@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bud's Light Construction</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <div class = "start">
+        <div class = "name">
+        <h1>Bud's Light Construction</h1>
+            <div class = "logo">
+                <a href="photogallery.html"><h1>B</h1>
+        </div>
+        </div>
+        </div>
+       
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+           
+        </nav>
+
+    </header>
+    <main>
+        <div class = "info">
+        <p>There are a few ways to contact us if you have and questions or issues</p>
+        <p>Our email is<a href="">Bud's Light Construction@gmail.com</a>
+        you can also find us on facbook at<br>
+         <a href="">BLConstruction</a><br><br><br>
+            You can also you the Customer suppor chat box on this page.</p>
+        </div>
+
+        <button class="open-button" onclick="openForm()">Customer Support</button>
+
+        <div class="chat-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h1>Having Problems?</h1>
+        
+            <label for="msg"><b>What are you having issues with?</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+        
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+        
+        <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+    </main>
+    
+</body>
+</html>

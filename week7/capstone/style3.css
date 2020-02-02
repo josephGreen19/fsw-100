@@ -1,0 +1,125 @@
+* {
+    background-color: gray;
+}
+
+.name {
+    display:flex;
+    justify-content: center;
+    background-color:gray;
+    color: blue;
+    
+    font-size: 45px;
+    
+}
+.logo {
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    color: blue;
+    border-radius: 50%;
+    font-size: 60px ;   
+}
+.start {
+    border: 5px solid black;
+}
+h1{
+    display:flex;
+    align-items: center;
+}
+a {
+    display:flex;
+    justify-content: center;
+    color: blue;
+}
+nav {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 15%;
+    font-size: 30px;
+    margin-top: 20px;
+}
+h2 {
+   padding-left: 500px;
+   font-size: 30px;
+}
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: none;
+    z-index: 9;
+  }
+  
+  
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+  }
+  
+  
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  .form-container .btn {
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    
+  }
+  
+  
+  .form-container .cancel {
+    background-color: blue;
+  }
+      table, td, th{
+          font-family:sans-serif;
+          font-size:28px;
+          color:white;
+          padding:15px;
+      
+      }
+  div{
+      color: blue;
+  }
+  p {
+      font-size: 30px;
+  }
+.info {
+    color: black;
+}
+.info a {
+    color: blue;
+}
+nav :hover {
+    color:red ;
+   
+}
+footer {
+    font-size: 20px;
+}
+footer :hover {
+    color: red;
+}
